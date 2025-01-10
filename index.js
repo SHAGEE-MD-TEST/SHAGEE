@@ -49,7 +49,7 @@ const {
 const path = require('path')
 const msgRetryCounterCache = new NodeCache()
 //const prefix = '.'
-const ownerNumber = ['94761864425']
+const ownerNumber = ['94717518710']
 const l = console.log
 //===================SESSION============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -108,7 +108,7 @@ const conn = makeWASocket({
             });
 	console.clear()
 	console.log('----------------------------------------------------')
-	lolcatjs.fromString(chalk.cyan(figlet.textSync('DENETH MD', {
+	lolcatjs.fromString(chalk.cyan(figlet.textSync('SHAGEE MD', {
 		font: 'Bloody',
 		horizontalLayout: 'full',
 		verticalLayout: 'full',
@@ -124,7 +124,7 @@ const conn = makeWASocket({
 	lolcatjs.fromString('Server Started ✅')
 	console.log('----------------------------------------------------')
 	console.log('----------------------------------------------------')
-	lolcatjs.fromString(chalk.cyan(figlet.textSync('Deneth', {
+	lolcatjs.fromString(chalk.cyan(figlet.textSync('SHAGEE', {
 		font: 'Bloody',
 		horizontalLayout: 'full',
 		verticalLayout: 'full',
@@ -132,20 +132,20 @@ const conn = makeWASocket({
 	})));
 	console.log('Plugins Installing...🔄')
 	lolcatjs.fromString('Plugins Installed SuccessFully ✅')
-	console.log('DENETH-MD Connecting...🔄')
-	lolcatjs.fromString('DENETH-MD Connected SuccessFully ✅')
+	console.log('SHAGEE - MD )( Connecting...🔄')
+	lolcatjs.fromString('SHAGEE-MD Connected SuccessFully ✅')
 	console.log('   ')
-	lolcatjs.fromString('Created By Deneth Hansaka Keerthirathna')
-	console.log('Thanks For Using DENETH-MD')
+	lolcatjs.fromString('Created By CYBER SHAGEE')
+	console.log('Thanks For Using SHAGEE-MD')
 	
 
 		
             await conn.sendMessage(config.OWNER + "@s.whatsapp.net", {
-text: "*ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ* ✓\n• ɢɪᴛʜᴜʙ* : https://github.com/denethhansaka\n• ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴠɪᴀ ᴛʏᴘᴇ: .joinsup\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®",
+text: "*SHAGEE-MD ᴠ1 ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ* ✓\n• ɢɪᴛʜᴜʙ* : https://github.com/SHAGEE-MD-TEST\n• ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴠɪᴀ ᴛʏᴘᴇ: .joinsup\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®",
 contextInfo: {
 externalAdReply: {
-title: "ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1\nSuccessfully Connected !",
-thumbnailUrl: "https://github.com/denethhansaka/DENETH-MD-Files/blob/main/Images/DENETH-MD.jpg?raw=true",
+title: "SHAGEE-MD ᴠ1\nSuccessfully Connected !",
+thumbnailUrl: "https://telegra.ph/file/ec57b757c3c5890d510c3.jpg?raw=true",
 sourceUrl: "",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -198,11 +198,11 @@ renderLargerThumbnail: true
             const pushname = mek.pushName || 'ᴅᴇɴᴇᴛʜ_xᴅ'
 	        const ownbot = config.OWNER
 	        const isownbot = ownbot?.includes(senderNumber)
-            const admin2 = '94763596949'
+            const admin2 = '94710136994'
             const isAdmin2 = admin2?.includes(senderNumber)
-            const admin3 = '94763197926'
+            const admin3 = '94710136994'
             const isAdmin3 = admin3?.includes(senderNumber)
-	        const developers = '94761864425'
+	        const developers = '94710136994'
             const isdev = developers.includes(senderNumber)
             const isbot = botNumber.includes(senderNumber)
             const isMe = isbot ? isbot : isdev
@@ -231,15 +231,15 @@ renderLargerThumbnail: true
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363192956026815@newsletter',
-      newsletterName: "DENETH-MD",
+      newsletterName: "SHAGEE-MD",
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1',
+title: 'SHAGEE-ᴍᴅ ᴠ1',
 body: 'ᴀ ᴡᴏʀʟᴅ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://github.com/denethhansaka" ,
-thumbnailUrl: 'https://github.com/denethhansaka/DENETH-MD-Files/blob/main/images/Main.jpg?raw=true' ,
+sourceUrl: "https://github.com/SHAGEE-MD-TEST" ,
+thumbnailUrl: 'https://telegra.ph/file/ec57b757c3c5890d510c3.jpg?raw=true' ,
 renderLargerThumbnail: true,
 showAdAttribution: false
 }
@@ -306,7 +306,7 @@ conn.sendButtonMessage = async (jid, buttons, quoted, opts = {}) => {
             fileSha256: 'FikZgFEcHv5jpyU1PhL10sPCmtsmcqnWUKaxot10tUU=',
             fileLength: 1e14,
             mediaKey: 'RZ3iF3NexfIjD1MB9EfJhMo/xcBZnbEZ/gVSuxlrHWE=',
-            fileName: "𝐃𝐄𝐍𝐄𝐓𝐇-𝐌𝐃 𝐕𝟏",
+            fileName: "SHAGEE-MD 𝐕𝟏",
             fileEncSha256: 'K+Bkh4AGLJTffSvs63DuMZumwquU014W8XsaWvfakPM=',
             directPath: '/v/t62.7119-24/32511132_500473132560305_5925723291063172577_n.enc?ccb=11-4&oh=01_Q5AaIKnXNmUWgmxyNn_1uxfEnGyiI-eCZ-BMRZdX3O2jhQq2&oe=66BE7A32&_nc_sid=5e03e0',
         };
@@ -339,17 +339,17 @@ conn.sendButtonMessage = async (jid, buttons, quoted, opts = {}) => {
                               forwardingScore: 999,
                               isForwarded: true,
                               forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363192956026815@newsletter',
-                                newsletterName: "DENETH-MD",
+                                newsletterJid: '1203631929026815@newsletter',
+                                newsletterName: "SHAGEE-MD",
                                 serverMessageId: 999
                             },
                             externalAdReply: {
                                 mediaType: 1,
                                 previewType: 1,
                                 renderLargerThumbnail: true,
-                                sourceUrl: "https://whatsapp.com/channel/0029Vamo0kT2ER6qNXgykO0B" ,
-                                thumbnailUrl: opts && opts.image ? opts.image : 'https://github.com/denethhansaka/DENETH-MD-Files/blob/main/images/Main.jpg?raw=true' ,
-                                title: 'ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1',
+                                sourceUrl: "https://whatsapp.com/channel/0029Vamo0kT2ER6kO0B" ,
+                                thumbnailUrl: opts && opts.image ? opts.image : 'https://telegra.ph/file/ec57b757c3c5890d510c3.jpg?raw=true' ,
+                                title: 'SHAGEE-MD ᴠ1',
                                 body: 'ᴀ ᴡᴏʀʟᴅ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ'
                             }
                         }
@@ -377,7 +377,7 @@ conn.sendButtonMessage = async (jid, buttons, quoted, opts = {}) => {
               }
 	      }
             //=======Anti jid=======
-	    if (from === "120363289450481087@g.us") return
+	    if (from === "1203632850481087@g.us") return
           
             //==================================plugin map================================
             const events = require('./command')
