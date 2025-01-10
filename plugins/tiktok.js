@@ -49,7 +49,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 if (!q) return await  reply(needus)
 let res = await fetchJson('https://api.tiklydown.eu.org/api/download?url='+q)
-let wm = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
+let wm = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
 const msg = `ＴＩＫＴＯＫ ＤＬ
  *• Title :* ${res.title}
  *• Date:* ${res.created_at}
@@ -119,7 +119,7 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if (!q) return await  reply(needus)
-let wm = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
+let wm = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅSHAGEE-MD ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
 await conn.sendMessage(from, { video: { url: q }, caption: wm}, { quoted: mek })
 await conn.sendMessage(from, { react: { text: '✅', key: mek.key }})
 } catch (e) {
