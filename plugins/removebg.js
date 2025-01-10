@@ -54,8 +54,8 @@ let msg = `*BACKGROUND REMOVER*
                     name: "cta_url",
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Join Our Channel',
-                        url: `https://whatsapp.com/channel/0029Vamo0kT2ER6qNXgykO0B`,
-                        merchant_url: `https://whatsapp.com/channel/0029Vamo0kT2ER6qNXgykO0B`
+                        url: `https://whatsapp.com/channel/0029Vamo02ER6qNXgykO0B`,
+                        merchant_url: `https://whatsapp.com/channel/029Vamo0kT2ER6qNXgykO0B`
                     }),
                 },
                 { name: 'single_select',
