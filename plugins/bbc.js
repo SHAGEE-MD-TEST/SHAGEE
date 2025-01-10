@@ -32,7 +32,7 @@ const msg = `🇱🇰 *LANKADEEPA NEWS* 🇱🇰
 
 • *Link* - ${news.result.url}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
+> SHAGEE - X-  WHATSAPP ʙᴏᴛ ®`
 
 
 await conn.sendMessage( from, { image: { url: news.result.image || '' }, caption: msg }, { quoted: mek })
@@ -66,7 +66,7 @@ const msg = `🌐 *BBC NEWS* 🌐
 
 • *Link* - ${news.result.url} 
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®
+> SHAGEE-X-MD®
 `
 
 
