@@ -25,7 +25,7 @@ const fg = require('api-dylux')
 const ytdl = require('@distube/ytdl-core')
 const { sizeFormatter } = require('human-readable')
 
-let foot = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
+let foot = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
 let newsize = config.MAX_SIZE * 1024 * 1024
 
 cmd({
@@ -79,7 +79,7 @@ cmd({
            }
         ]
         let message = {
-            image: `https://github.com/denethhansaka/DENETH-MD-Files/blob/main/images/YouTube.jpg?raw=true`,
+            image: `https://github.com/denet/blob/main/images/YouTube.jpg?raw=true`,
             header: '',
             footer: wm,
             body: msg
@@ -119,8 +119,8 @@ cmd({
                     name: "cta_url",
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Follow Our Channel',
-                        url: `https://whatsapp.com/channel/0029Vamo0kT2ER6qNXgykO0B`,
-                        merchant_url: `https://whatsapp.com/channel/0029Vamo0kT2ER6qNXgykO0B`
+                        url: `https://whatsapp.com/channel/002mo0kT2ER6qNXgykO0B`,
+                        merchant_url: `https://whatsapp.com/channel/0029Vamo02ER6qNXgykO0B`
                     }),
                 },
                 { name: 'single_select',
@@ -189,7 +189,7 @@ cmd({
             if (!q) return await reply('*Please Enter A Query Or A URL!*')
             const url = q.replace(/\?si=[^&]*/, '');
             var results = await yts(url);
-            let wm = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
+            let wm = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE MD ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
             var result = results.videos[0]
          let caption = `*Y T - S O N G*\n\n`
          caption += `	➻  *Title* : ${result.title}\n`
