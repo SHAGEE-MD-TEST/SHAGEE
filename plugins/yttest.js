@@ -23,7 +23,7 @@ const fg = require('api-dylux')
 const { sizeFormatter } = require('human-readable')
 const fetch = require('node-fetch')
 
-let foot = "> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®"
+let foot = "> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®"
 let newsize = config.MAX_SIZE * 1024
 let normals = 150 * 1024
 
