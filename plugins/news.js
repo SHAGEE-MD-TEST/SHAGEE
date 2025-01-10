@@ -39,7 +39,7 @@ ${data.result.desc}
 *❓ Question :* ${data.result.QandA[3].question}
 *👨🏻‍💻 Answer :* ${data.result.QandA[3].answer}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD WHATHSAPP BOT®`
 return await conn.sendMessage(from, { image: { url: data.result.image} , caption: info } , { quoted: mek })
 } catch (e) {
 console.log(e)
@@ -93,7 +93,7 @@ let info = `*📃 Title :* ${data.result.title}
 *⛓️ Link:* ${data.result.link}
 *📚 Description:* ${data.result.desc}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD WHATHSAPP BOT®
 `
 return await conn.sendMessage(from, { image: { url: data.result.images} , caption: info } , { quoted: mek })
 } catch (e) {
@@ -118,7 +118,7 @@ let info = `*📃 Title :* ${data.result.title}
 *⛓️ Link:* ${data.result.link}
 *📚 Description:* ${data.result.desc}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD WHATHSAPP BOT®
 `
 return await conn.sendMessage(from, { image: { url: data.result.img} , caption: info } , { quoted: mek })
 } catch (e) {
@@ -144,7 +144,7 @@ let info = `*📃 Title :* ${data.title}
 *📅 Time :* ${data.time}
 *📚 Description:* ${data.description}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD WHATHSAPP BOT®
 `
 return await conn.sendMessage(from, { image: { url: data.image} , caption: info } , { quoted: mek })
 } catch (e) {
@@ -171,7 +171,7 @@ let info = `*📃 Title :* ${data.title}
 *⛓️ Id:* ${data.id}
 *📚 Description:* ${data.desc}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD WHATHSAPP BOT®
 `
 return await conn.sendMessage(from, { image: { url: data.image} , caption: info } , { quoted: mek })
 } catch (e) {
