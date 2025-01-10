@@ -19,7 +19,7 @@ const {
 } = require('../command')
 const ufs = require('../lib/ufs');
 
-let foot = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
+let foot = `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHAGEE-MD ᴠ1 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ®`
 
 cmd({
     pattern: "audsong",
